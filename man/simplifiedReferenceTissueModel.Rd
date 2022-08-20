@@ -4,8 +4,15 @@
 \alias{simplifiedReferenceTissueModel}
 \title{The Simplified Reference Tissue Model}
 \usage{
-simplifiedReferenceTissueModel(tac, ref, time, SRTM2 = TRUE, k2prime = NULL,
-  guess = c(R1 = 0.5, k2 = 0.01), control = minpack.lm::nls.lm.control())
+simplifiedReferenceTissueModel(
+  tac,
+  ref,
+  time,
+  SRTM2 = TRUE,
+  k2prime = NULL,
+  guess = c(R1 = 0.5, k2 = 0.01),
+  control = minpack.lm::nls.lm.control()
+)
 }
 \arguments{
 \item{tac}{a vector corresponding to the time activity curve from the tissue
@@ -21,7 +28,7 @@ or the two-parameter model (SRTM2), where k2prime is fixed.}
 
 \item{k2prime}{the value of k2prime that has been fixed.}
 
-\item{guess}{values for the initial parameter estimates for R1 and k2.}
+\item{guess}{values for the inital parameter estimates for R1 and k2.}
 
 \item{control}{a list of parameters used by \code{nls.lm.control} that are
 set by default, but may be customized by the user.}
@@ -57,7 +64,7 @@ tissue model for PET receptor studies, \emph{NeuroImage}, \bold{4}, 153-158.
 
 Wu, Y. and Carson, R.E. (2002) Noise reduction in the simplified reference
 tissue model for neuroreceptor functional imaging, \emph{Journal of Cerebral
-Blood Flow \& Metabolism}, \bold{22}, 1440-1452.
+Blood Flow & Metabolism}, \bold{22}, 1440-1452.
 }
 \seealso{
 \code{\link[msm]{deltamethod}}, \code{\link{expConv}},

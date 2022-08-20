@@ -36,7 +36,7 @@
 
 #' Compute Drug Occupancy with Approximate Standard Errors
 #' 
-#' Receptor occupancy is calculated from positron emission tomography (PET)
+#' Receptor occupancy is calculated from posititron emission tomography (PET)
 #' data as the treatment-induced relative change in the concentration of
 #' available (not occupied) receptors.
 #' 
@@ -57,7 +57,7 @@
 #' @seealso \code{\link[msm]{deltamethod}}
 #' @references Cunningham VJ, Rabiner EA, Slifstein M, Laruelle M (2010).
 #' Measuring drug occupancy in the absence of a reference region: the Lassen
-#' plot re-visited, \emph{Journal of Cerebral Blood Flow & Metabolism},
+#' plot re-visited, \emph{Journal of Cerebral Blood Flow & Metababolism},
 #' \bold{30}, 46-50.
 #' 
 #' Passchier J, Gee A, Willemsen A, Vaalburg W, van Waarde A (2002).  Measuring

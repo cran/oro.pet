@@ -65,7 +65,7 @@
 #' @seealso \code{\link{par}}, \code{\link{plot}}
 #' @references Cunningham VJ, Rabiner EA, Slifstein M, Laruelle M (2010).
 #' Measuring drug occupancy in the absence of a reference region: the Lassen
-#' plot re-visited, \emph{Journal of Cerebral Blood Flow & Metabolism},
+#' plot re-visited, \emph{Journal of Cerebral Blood Flow & Metababolism},
 #' \bold{30}, 46-50.
 #' @export plotBindingPotential
 #' @importFrom graphics abline plot points

@@ -60,7 +60,7 @@
 #' @param SRTM2 a logical value that selects the three-parameter model (SRTM)
 #' or the two-parameter model (SRTM2), where k2prime is fixed.
 #' @param k2prime the value of k2prime that has been fixed.
-#' @param guess values for the initial parameter estimates for R1 and k2.
+#' @param guess values for the inital parameter estimates for R1 and k2.
 #' @param control a list of parameters used by \code{nls.lm.control} that are
 #' set by default, but may be customized by the user.
 #' @return \item{BP}{Binding potential} \item{R1}{Ratio of the volumes of
@@ -76,7 +76,7 @@
 #' 
 #' Wu, Y. and Carson, R.E. (2002) Noise reduction in the simplified reference
 #' tissue model for neuroreceptor functional imaging, \emph{Journal of Cerebral
-#' Blood Flow \& Metabolism}, \bold{22}, 1440-1452.
+#' Blood Flow & Metabolism}, \bold{22}, 1440-1452.
 #' @importFrom minpack.lm nls.lm nls.lm.control
 simplifiedReferenceTissueModel <- function(tac, ref, time, SRTM2=TRUE,
                                            k2prime=NULL,
@@ -153,7 +153,7 @@ simplifiedReferenceTissueModel <- function(tac, ref, time, SRTM2=TRUE,
 #' Suhara, T., Suzuki, K., Innis, R.B., Carson, R.E. (2003) Linearized
 #' reference tissue parametric imaging methods: Application to [11C]DASB
 #' positron emission tomography studies of the serotonin transporter in human
-#' brain, \emph{Journal of Cerebral Blood Flow \& Metabolism}, \bold{23},
+#' brain, \emph{Journal of Cerebral Blood Flow & Metabolism}, \bold{23},
 #' 1096-1112.
 #' @importFrom stats coefficients residuals
 #' @importFrom msm deltamethod

@@ -4,8 +4,14 @@
 \alias{multilinearReferenceTissueModel}
 \title{The Multilinear Reference Tissue Model}
 \usage{
-multilinearReferenceTissueModel(tac, ref, time, tstar, MRTM2 = TRUE,
-  k2prime = NULL)
+multilinearReferenceTissueModel(
+  tac,
+  ref,
+  time,
+  tstar,
+  MRTM2 = TRUE,
+  k2prime = NULL
+)
 }
 \arguments{
 \item{tac}{a vector corresponding to the time activity curve from the tissue
@@ -62,7 +68,7 @@ Ichise, M., Liow, J.-S., Lu, J.-Q., Takano, A., Model, K., Toyama, H.,
 Suhara, T., Suzuki, K., Innis, R.B., Carson, R.E. (2003) Linearized
 reference tissue parametric imaging methods: Application to [11C]DASB
 positron emission tomography studies of the serotonin transporter in human
-brain, \emph{Journal of Cerebral Blood Flow \& Metabolism}, \bold{23},
+brain, \emph{Journal of Cerebral Blood Flow & Metabolism}, \bold{23},
 1096-1112.
 }
 \seealso{

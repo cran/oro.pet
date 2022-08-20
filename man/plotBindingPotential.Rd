@@ -4,11 +4,27 @@
 \alias{plotBindingPotential}
 \title{Plot Baseline Versus Post-Treatment Binding Potentials}
 \usage{
-plotBindingPotential(base, drug, lty45 = 2, lty = 1, lwd45 = 2, lwd = 3,
-  col45 = "darkgrey", col = "orange", pch = 1, cex = 1,
-  xlim = range(0, base, 0.5), ylim = range(0, drug, 0.5),
-  xlab = expression(BP[ND]^{     Base }), ylab = expression(BP[ND]^{    
-  Drug }), ...)
+plotBindingPotential(
+  base,
+  drug,
+  lty45 = 2,
+  lty = 1,
+  lwd45 = 2,
+  lwd = 3,
+  col45 = "darkgrey",
+  col = "orange",
+  pch = 1,
+  cex = 1,
+  xlim = range(0, base, 0.5),
+  ylim = range(0, drug, 0.5),
+  xlab = expression(BP[ND]^{
+     Base
+ }),
+  ylab = expression(BP[ND]^{
+     Drug
+ }),
+  ...
+)
 }
 \arguments{
 \item{base}{is the vector of baseline binding potentials across brain
@@ -58,7 +74,7 @@ See the reference below.
 \references{
 Cunningham VJ, Rabiner EA, Slifstein M, Laruelle M (2010).
 Measuring drug occupancy in the absence of a reference region: the Lassen
-plot re-visited, \emph{Journal of Cerebral Blood Flow & Metabolism},
+plot re-visited, \emph{Journal of Cerebral Blood Flow & Metababolism},
 \bold{30}, 46-50.
 }
 \seealso{

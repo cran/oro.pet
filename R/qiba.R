@@ -40,7 +40,7 @@
 #' @title Calculating SUVs for PET Using QIBA Pseudocode
 #' 
 #' @description The standard uptake value (SUV) is calculated based on an 18F-FDG-PET
-#' acquisition using ancillary information contained in the DICOM data.
+#' acquistion using ancillary information contained in the DICOM data.
 #' 
 #' 
 #' @aliases activityConcentration 
@@ -82,7 +82,7 @@
 #' @author Brandon Whitcher \email{bwhitcher@@gmail.com}
 #' @seealso \code{\link[oro.dicom]{dicomTable}}, \code{\link[oro.nifti]{nifti}}
 #' @references
-#' \url{http://qibawiki.rsna.org/index.php?title=Standardized_Uptake_Value_(SUV)}
+#' \url{https://qibawiki.rsna.org/index.php?title=Standardized_Uptake_Value_(SUV)}
 #' @note
 #' 
 #' Note, for GE scanners it is common for the RescaleSlope DICOM field to vary

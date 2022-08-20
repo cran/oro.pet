@@ -30,7 +30,7 @@ PET receptor studies, \emph{NeuroImage}, \bold{4}, 153-158.
 
 Wu, Y and Carson, R.E. (2002) Noise reduction in the simplified reference
 tissue model for neuroreceptor functional imaging, \emph{Journal of Cerebral
-Blood Flow \& Metabolism}, \bold{22}, 1440-1452.
+Blood Flow & Metabolism}, \bold{22}, 1440-1452.
 }
 \seealso{
 \code{\link{simplifiedReferenceTissueModel}}

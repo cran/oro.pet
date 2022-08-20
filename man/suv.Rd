@@ -47,6 +47,9 @@ The lean body mass (LBM) is calculated according to the formula
 \deqn{1.1\cdot\mbox{weight}-128\cdot(\mbox{weight}/\mbox{height})^2} if male
 and \deqn{1.07\cdot\mbox{weight}-148\cdot(\mbox{weight}/\mbox{height})^2} if
 female.
+
+The standard uptake value (SUV) is summarized using the hotspot 
+method or by calculating total volume of the high values.
 }
 \examples{
 library(oro.pet)
@@ -66,7 +69,5 @@ Weight and Methods for Correction, \emph{Radiology} \bold{213}: 521--525.
 \code{\link{leanBodyMass}}
 }
 \author{
-Brandon Whitcher \email{bwhitcher@gmail.com}
-
 Brandon Whitcher \email{bwhitcher@gmail.com}
 }

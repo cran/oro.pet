@@ -58,7 +58,7 @@
 #' @return List with the following elements \itemize{
 #' \item{IC50}{Half maximal inhibitory concentration}
 #' \item{rmax}{Estimated maximal occupancy} \item{IC50SE}{Approximate standard
-#' error for IC50} \item{rmaxSE}{Approximate standard error for rmax}
+#' error for IC50} \item{rmaxSE}{Approximate standard erorr for rmax}
 #' \item{hessian}{Hessian matrix from the Levenburg-Marquardt procedure}
 #' \item{info}{Return value from the Levenburg-Marquardt procedure}
 #' \item{deviance}{Deviance from the Levenburg-Marquardt procedure}
@@ -66,9 +66,9 @@
 #' }
 #' @author Brandon Whitcher \email{bwhitcher@@gmail.com}
 #' @seealso \code{\link[minpack.lm]{nls.lm}}
-#' @references \href{http://en.wikipedia.org/wiki/Hill_equation_(biochemistry)}{Hill
+#' @references \href{https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)}{Hill
 #' Equation}
-#' \href{http://en.wikipedia.org/wiki/IC50}{IC50}
+#' \href{https://en.wikipedia.org/wiki/IC50}{IC50}
 #' @export hillEquation
 #' @importFrom stats coef median
 hillEquation <- function(conc, occ, guess=c(1,100), control=minpack.lm::nls.lm.control()) {

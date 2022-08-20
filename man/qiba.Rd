@@ -12,21 +12,41 @@
 \usage{
 activityConcentration(pixelData, ...)
 
-\S4method{activityConcentration}{array}(pixelData, CSV = NULL,
-  seriesNumber = NULL, method = "qiba")
+\S4method{activityConcentration}{array}(
+  pixelData,
+  CSV = NULL,
+  seriesNumber = NULL,
+  method = "qiba"
+)
 
-.activityConcentration(pixelData, CSV = NULL, seriesNumber = NULL,
-  method = "qiba")
+.activityConcentration(
+  pixelData,
+  CSV = NULL,
+  seriesNumber = NULL,
+  method = "qiba"
+)
 
 standardUptakeValue(pixelData, ...)
 
-\S4method{standardUptakeValue}{array}(pixelData, mask = NULL, CSV = NULL,
-  seriesNumber = NULL, method = c("qiba", "user"), prior = NULL,
-  decayedDose = NULL)
+\S4method{standardUptakeValue}{array}(
+  pixelData,
+  mask = NULL,
+  CSV = NULL,
+  seriesNumber = NULL,
+  method = c("qiba", "user"),
+  prior = NULL,
+  decayedDose = NULL
+)
 
-.standardUptakeValue(pixelData, mask = NULL, CSV = NULL,
-  seriesNumber = NULL, method = c("qiba", "user"), prior = NULL,
-  decayedDose = NULL)
+.standardUptakeValue(
+  pixelData,
+  mask = NULL,
+  CSV = NULL,
+  seriesNumber = NULL,
+  method = c("qiba", "user"),
+  prior = NULL,
+  decayedDose = NULL
+)
 }
 \arguments{
 \item{pixelData}{is a multidimensional array of signal intensities of class
@@ -75,7 +95,7 @@ user-specified value.}
 }
 \description{
 The standard uptake value (SUV) is calculated based on an 18F-FDG-PET
-acquisition using ancillary information contained in the DICOM data.
+acquistion using ancillary information contained in the DICOM data.
 }
 \note{
 Note, for GE scanners it is common for the RescaleSlope DICOM field to vary
@@ -87,7 +107,7 @@ RescaleSlope field in the CSV data frame so that the activity concentration
 is calculated correctly.
 }
 \references{
-\url{http://qibawiki.rsna.org/index.php?title=Standardized_Uptake_Value_(SUV)}
+\url{https://qibawiki.rsna.org/index.php?title=Standardized_Uptake_Value_(SUV)}
 }
 \seealso{
 \code{\link[oro.dicom]{dicomTable}}, \code{\link[oro.nifti]{nifti}}
